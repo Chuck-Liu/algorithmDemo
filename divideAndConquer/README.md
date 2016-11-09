@@ -1,1 +1,1 @@
-Record demoes during studying algorithm
+Record demoes about divide and conquer
