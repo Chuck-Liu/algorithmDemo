@@ -2,8 +2,7 @@ class Solution {
 public:
     void quickSort(vector<int>& nums, int p, int r){
         if (p < r){
-            int len = nums.size() - 1;
-            int q = partition(nums, 0, len);
+            int q = partition(nums, 0, r);
             quickSort(nums, p, q - 1);
             quickSort(nums, q + 1, r);
         }
