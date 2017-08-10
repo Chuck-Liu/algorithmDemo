@@ -2,7 +2,7 @@ class Solution {
 public:
     void quickSort(vector<int>& nums, int p, int r){
         if (p < r){
-            int q = partition(nums, 0, r);
+            int q = partition(nums, p, r);
             quickSort(nums, p, q - 1);
             quickSort(nums, q + 1, r);
         }
